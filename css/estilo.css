@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+header,main,nav,footer{
+	font-family:Helvetica;
+	font-size:12px;
+	border:solid 1px #666;
+	padding:0.5em;
+	margin-top:5px;
+	border-radius:10px;
+	
+}
+input[type=text],input[type=number],input[type=tel], input[type=submit], input[type=date], input[type=password]{
+	border-radius:5px;
+	padding:0.5em;	
+	box-shadow:1px 1px 1px #333333;
+	background-color:#FFFFFF;
+	margin:15px 0px;
+	height: 20px;
+}
+header{
+	text-align:center;
+}
+
+footer{
+	text-align:center;	
+}
+#pelicula{
+	margin:0px 30%;
+	text-align:center;	
+	padding:2em;
+	border-radius: 10px;
+	background-color:rgba(66,66,66,0.55);
+}
+#pelicula2{
+	margin:12% 30%;
+	text-align:center;	
+	padding:2em;
+	border-radius: 10px;
+	background-color:rgba(54,54,54,0.68);
+}
+#pelicula3{
+	margin:0% 45%;
+	text-align:center;	
+	padding:2em;
+	border-radius: 10px;
+	background-color:rgba(255,255,255,0.00);
+}
+/*fontes*/
+.fonte1{
+	font-family: 'Roboto Slab', serif;
+	color:#ffd800;
+	font-size:36px;
+	font-weight: 700;
+	text-shadow: 2.3px 2.3px #333;
+}
+.fonte2{
+	font-family: 'Montserrat', sans-serif;
+	color:#fdff6b;
+	font-size:18px;
+}
+.fonte3{
+	font-family: 'Montserrat', sans-serif;
+	color:#5ed16c;
+	font-size:18px;
+}
+.fonte4{
+	font-family: 'Montserrat', sans-serif;
+	color:#000E82;
+	font-size:15px;
+}
+.fonte3:hover{
+	color: yellow;
+}
+/*fim fontes*/
+.btn{
+	border-radius: 5px;
+	border: 0;
+	background-color: #B3792C;
+}
+.btn:hover{
+	background-color: white;
+}
+.btn2{
+	border:0;	
+	background-color: #333;
+}
+.btn3{
+	border-radius: 5px;
+	border: 0;
+	background-color: #5ed16c;
+}
+.btn3:hover{
+	background-color: blue;
+}
+.alinha{
+	text-align:right;
+}
+.alinhamento{
+	border-radius:5px;
+	padding:0.5em;	
+	box-shadow:1px 1px 1px #333333;
+	background-color:#FFFFFF;
+	margin:15px 0px;
+	height: 40px;	
+}
+.bg{
+	background-image:url(../Img/bglogin.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	align-content: center;	
+	border-radius: 5px;
+	padding: 0px 0px 10px 0px;
+}
+.x{width:14.4%;}
+.x1{width:15%;}
+.x,.x1{
+	height:23px;
+	padding:.2%;
+	margin:5px;	
+}
+.foto{
+	height:180px;
+	width:124px;
+	border:groove;
+}
+#sair{
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0 10px 0 0;
+  	overflow: hidden;
+  	background-color: #333;
+	border:0;	
+}
